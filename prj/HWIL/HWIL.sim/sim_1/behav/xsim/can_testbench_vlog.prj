@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  -i "../../../../include_files" \
+"../../../../../../ref/ip-cores/rtl/verilog/can_acf.v" \
+"../../../../../../ref/ip-cores/rtl/verilog/can_bsp.v" \
+"../../../../../../ref/ip-cores/rtl/verilog/can_btl.v" \
+"../../../../../../ref/ip-cores/rtl/verilog/can_crc.v" \
+"../../../../../../ref/ip-cores/rtl/verilog/can_fifo.v" \
+"../../../../../../ref/ip-cores/rtl/verilog/can_ibo.v" \
+"../../../../../../ref/ip-cores/rtl/verilog/can_register.v" \
+"../../../../../../ref/ip-cores/rtl/verilog/can_register_asyn.v" \
+"../../../../../../ref/ip-cores/rtl/verilog/can_register_asyn_syn.v" \
+"../../../../../../ref/ip-cores/rtl/verilog/can_registers.v" \
+"../../../../../../ref/ip-cores/rtl/verilog/can_top.v" \
+"../../../../../../ref/ip-cores/bench/verilog/can_testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
