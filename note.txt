@@ -1,0 +1,18 @@
+ You can program the FPGA from a pen drive attached to the USB-HID port (J15) or a microSD card inserted into J3 by doing the following:
+
+    Format the storage device (pen drive or microSD card) with a FAT32 file system.
+    Place a single .bit configuration file in the root directory of the storage device.
+    Attach the storage device to the Nexys Video.
+    Set the JP4 Programming Mode jumper on the Nexys Video to “USB/SD”.
+    Select the desired storage device using JP3.
+    Push the PROG button or power-cycle the Nexys Video.
+
+The FPGA will automatically configure with the .bit file on the selected storage device. Any .bit files that are not built for the proper Artix-7 device will be rejected by the FPGA.
+
+The Auxiliary Function Status, or “BUSY” LED (LD14), gives visual feedback on the state of the configuration process when the FPGA is not yet programmed:
+
+    When steadily lit, the auxiliary microcontroller is either booting up or currently reading the configuration medium (microSD or pen drive) and downloading a bitstream to the FPGA.
+    A slow pulse means the microcontroller is waiting for a configuration medium to be plugged in.
+    In case of an error during configuration, the LED will blink rapidly. It could be that the device plugged in is not recognized, it is not properly formatted, or the bitstream is not compatible with the FPGA.
+
+When the FPGA has been successfully configured, the behavior of the LED is application-specific. For example, if a USB keyboard is plugged in, a rapid short blink will signal the receipt of an HID input report from the keyboard. 
