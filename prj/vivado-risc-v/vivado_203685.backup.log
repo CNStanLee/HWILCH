@@ -1,0 +1,427 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Nov 27 16:56:00 2023
+# Process ID: 203685
+# Current directory: /home/lic9/prj/HWIL/ref/vivado-risc-v
+# Command line: vivado workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.xpr
+# Log file: /home/lic9/prj/HWIL/ref/vivado-risc-v/vivado.log
+# Journal file: /home/lic9/prj/HWIL/ref/vivado-risc-v/vivado.jou
+# Running On: administrator-Precision-3660, OS: Linux, CPU Frequency: 2093.798 MHz, CPU Physical cores: 12, Host memory: 33319 MB
+#-----------------------------------------------------------
+start_gui
+open_project workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 7905.793 ; gain = 419.797 ; free physical = 413 ; free virtual = 37968
+update_compile_order -fileset sources_1
+open_bd_design {/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/riscv.bd}
+Reading block design file </home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/riscv.bd>...
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - axi_smc_1
+Adding component instance block -- xilinx.com:module_ref:mem_reset_control:1.0 - mem_reset_control_0
+Adding component instance block -- xilinx.com:ip:mig_7series:4.2 - mig_7series_0
+Adding component instance block -- xilinx.com:module_ref:ethernet:1.0 - Ethernet
+Adding component instance block -- xilinx.com:module_ref:sdc_controller:1.0 - SD
+Adding component instance block -- xilinx.com:module_ref:uart:1.0 - UART
+Adding component instance block -- xilinx.com:ip:xadc_wiz:3.3 - XADC
+Adding component instance block -- xilinx.com:module_ref:ethernet_nexys_video:1.0 - ethernet_stream_0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - io_axi_m
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - io_axi_s
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:module_ref:Rocket32s2:1.0 - RocketChip
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Successfully read diagram <riscv> from block design file </home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/riscv.bd>
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:can:5.1 can_0
+endgroup
+set_property location {4 1218 764} [get_bd_cells can_0]
+save_bd_design
+Wrote  : </home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/riscv.bd> 
+Wrote  : </home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/ui/bd_32edb0cf.ui> 
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:v_proc_ss:2.3 v_proc_ss_0
+m_axi_mm_width = 128
+m_axi_mm_width = 128
+m_axi_mm_width = 128
+m_axi_mm_width = 128
+m_axi_mm_width = 128
+m_axi_mm_width = 128
+m_axi_mm_width = 128
+deint_m_axi_mm_width = 128
+WARNING: [BD 41-1306] The connection to interface pin </reset_sel_axi_mm/gpio_io_o> is being overridden by the user with net <net_reset_sel_axi_mm_gpio_io_o>. This pin will not be connected as a part of interface connection <GPIO>.
+WARNING: [BD 41-1306] The connection to interface pin </reset_sel_axi_mm/gpio_io_i> is being overridden by the user with net <net_reset_sel_axi_mm_gpio_io_o>. This pin will not be connected as a part of interface connection <GPIO>.
+WARNING: [BD 41-1306] The connection to interface pin </reset_sel_axis/gpio_io_o> is being overridden by the user with net <net_reset_sel_axis_gpio_io_o>. This pin will not be connected as a part of interface connection <GPIO>.
+WARNING: [BD 41-1306] The connection to interface pin </reset_sel_axis/gpio_io_i> is being overridden by the user with net <net_reset_sel_axis_gpio_io_o>. This pin will not be connected as a part of interface connection <GPIO>.
+WARNING: [BD 41-1306] The connection to interface pin </deint_ss/m_axis_tuser> is being overridden by the user with net <net_deint_ss_m_axis_tuser>. This pin will not be connected as a part of interface connection <M_AXIS>.
+WARNING: [BD 41-1306] The connection to interface pin </deint_cc/s_axis_tuser> is being overridden by the user with net <net_deint_concat_dout>. This pin will not be connected as a part of interface connection <S_AXIS>.
+WARNING: [BD 41-1306] The connection to interface pin </deint_cc/m_axis_tuser> is being overridden by the user with net <net_deint_cc_m_axis_tuser>. This pin will not be connected as a part of interface connection <M_AXIS>.
+WARNING: [BD 41-1306] The connection to interface pin </dint/s_axis_video_TUSER> is being overridden by the user with net <net_deint_tuser_tap_Dout>. This pin will not be connected as a part of interface connection <s_axis_video>.
+1
+true
+true
+Slave segment '/axi_vdma/S_AXI_LITE/Reg' is being assigned into address space '/s_axi_ctrl' at <0x0000_0000 [ 64K ]>.
+Slave segment '/csc/s_axi_CTRL/Reg' is being assigned into address space '/s_axi_ctrl' at <0x0001_0000 [ 64K ]>.
+Slave segment '/dint/s_axi_CTRL/Reg' is being assigned into address space '/s_axi_ctrl' at <0x0002_0000 [ 64K ]>.
+Slave segment '/hcr/s_axi_CTRL/Reg' is being assigned into address space '/s_axi_ctrl' at <0x0003_0000 [ 64K ]>.
+Slave segment '/hsc/s_axi_CTRL/Reg' is being assigned into address space '/s_axi_ctrl' at <0x0004_0000 [ 64K ]>.
+Slave segment '/ltr/s_axi_CTRL/Reg' is being assigned into address space '/s_axi_ctrl' at <0x0005_0000 [ 64K ]>.
+Slave segment '/reset_sel_axi_mm/S_AXI/Reg' is being assigned into address space '/s_axi_ctrl' at <0x0006_0000 [ 64K ]>.
+Slave segment '/reset_sel_axis/S_AXI/Reg' is being assigned into address space '/s_axi_ctrl' at <0x0007_0000 [ 64K ]>.
+Slave segment '/vcr_i/s_axi_CTRL/Reg' is being assigned into address space '/s_axi_ctrl' at <0x0008_0000 [ 64K ]>.
+Slave segment '/vcr_o/s_axi_CTRL/Reg' is being assigned into address space '/s_axi_ctrl' at <0x0009_0000 [ 64K ]>.
+Slave segment '/video_router/xbar/S_AXI_CTRL/Reg' is being assigned into address space '/s_axi_ctrl' at <0x000A_0000 [ 64K ]>.
+Slave segment '/vsc/s_axi_CTRL/Reg' is being assigned into address space '/s_axi_ctrl' at <0x000B_0000 [ 64K ]>.
+endgroup
+delete_bd_objs [get_bd_cells v_proc_ss_0]
+save_bd_design
+Wrote  : </home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/riscv.bd> 
+Wrote  : </home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/ui/bd_32edb0cf.ui> 
+delete_bd_objs [get_bd_cells can_0]
+save_bd_design
+Wrote  : </home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/riscv.bd> 
+Wrote  : </home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/ui/bd_32edb0cf.ui> 
+open_bd_design {/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/riscv.bd}
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sdc_controller'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/tools/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sdc_controller' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim/sc_xtlm_riscv_axi_smc_1_0.mem'
+INFO: [SIM-utils-43] Exported '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim/sc_xtlm_riscv_io_axi_m_0.mem'
+INFO: [SIM-utils-43] Exported '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim/sc_xtlm_riscv_io_axi_s_0.mem'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_can_0_0/riscv_can_0_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/riscv_v_proc_ss_0_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_15/bd_87b4_axi_vdma_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_5/bd_87b4_csc_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_21/bd_87b4_deint_cc_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_20/bd_87b4_deint_concat_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_23/bd_87b4_deint_fid_tap_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_19/bd_87b4_deint_ss_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_22/bd_87b4_deint_tuser_tap_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_18/bd_87b4_dint_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_26/bd_87b4_hcr_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_2/bd_87b4_hsc_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_3/bd_87b4_input_size_set_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_4/bd_87b4_ltr_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_27/bd_87b4_m00_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_28/bd_87b4_m01_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_29/bd_87b4_m02_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_30/bd_87b4_m04_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_31/bd_87b4_m05_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_32/bd_87b4_m06_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_33/bd_87b4_m07_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_34/bd_87b4_m08_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_6/bd_87b4_proc_ss_ip_aresetn_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_16/bd_87b4_reset_sel_axi_mm_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_10/bd_87b4_reset_sel_axis_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_17/bd_87b4_rst_axi_mm_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_11/bd_87b4_rst_axis_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_0/bd_87b4_smartconnect_0_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_12/bd_87b4_smartconnect_1_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_24/bd_87b4_vcr_i_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_25/bd_87b4_vcr_o_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_13/bd_87b4_vdma_pad_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_14/bd_87b4_vdma_trunc_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_7/bd_87b4_vid_in_aresetn_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_8/bd_87b4_video_router_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_1/bd_87b4_vsc_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_9/bd_87b4_xbar_0.xml'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj sdc_controller_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lic9/prj/HWIL/ref/vivado-risc-v/sdc/sd_cmd_master.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sd_cmd_master
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lic9/prj/HWIL/ref/vivado-risc-v/sdc/sd_cmd_serial_host.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sd_cmd_serial_host
+INFO: [VRFC 10-311] analyzing module sd_crc_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lic9/prj/HWIL/ref/vivado-risc-v/sdc/sd_data_master.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sd_data_master
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lic9/prj/HWIL/ref/vivado-risc-v/sdc/sd_data_serial_host.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sd_data_serial_host
+INFO: [VRFC 10-311] analyzing module sd_crc_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lic9/prj/HWIL/ref/vivado-risc-v/sdc/axi_sdc_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sdc_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sdc_controller_behav xil_defaultlib.sdc_controller xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sdc_controller_behav xil_defaultlib.sdc_controller xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2023.2/rdi_builds/continuous/2023_10_13_4029153/data/verilog/src/unisims/IOBUF.v" Line 31. Module IOBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2023.2/rdi_builds/continuous/2023_10_13_4029153/data/verilog/src/unisims/IOBUF.v" Line 31. Module IOBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2023.2/rdi_builds/continuous/2023_10_13_4029153/data/verilog/src/unisims/IOBUF.v" Line 31. Module IOBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2023.2/rdi_builds/continuous/2023_10_13_4029153/data/verilog/src/unisims/IOBUF.v" Line 31. Module IOBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2023.2/rdi_builds/continuous/2023_10_13_4029153/data/verilog/src/unisims/IOBUF.v" Line 31. Module IOBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2023.2/rdi_builds/continuous/2023_10_13_4029153/data/verilog/src/unisims/IOBUF.v" Line 31. Module IOBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2023.2/rdi_builds/continuous/2023_10_13_4029153/data/verilog/src/unisims/IOBUF.v" Line 31. Module IOBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2023.2/rdi_builds/continuous/2023_10_13_4029153/data/verilog/src/unisims/IOBUF.v" Line 31. Module IOBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2023.2/rdi_builds/continuous/2023_10_13_4029153/data/verilog/src/unisims/IOBUF.v" Line 31. Module IOBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2023.2/rdi_builds/continuous/2023_10_13_4029153/data/verilog/src/unisims/IOBUF.v" Line 31. Module IOBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IOBUF
+Compiling module xil_defaultlib.sd_cmd_master
+Compiling module xil_defaultlib.sd_crc_7
+Compiling module xil_defaultlib.sd_cmd_serial_host
+Compiling module xil_defaultlib.sd_data_master
+Compiling module xil_defaultlib.sd_crc_16
+Compiling module xil_defaultlib.sd_data_serial_host_default
+Compiling module xil_defaultlib.sdc_controller
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sdc_controller_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sdc_controller_behav -key {Behavioral:sim_1:Functional:sdc_controller} -tclbatch {sdc_controller.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source sdc_controller.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sdc_controller_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 8645.328 ; gain = 55.199 ; free physical = 308 ; free virtual = 37491
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run all
+run all
+run all
+open_bd_design {/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/riscv.bd}
+open_bd_design {/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/riscv.bd}
+set_property location {1 156 761} [get_bd_cells clk_wiz_0]
+add_files {/home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_defines.v /home/lic9/prj/HWIL/ref/ip-cores/bench/verilog/timescale.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_register_asyn.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_acf.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_ibo.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_top.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_bsp.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_register.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_register_asyn_syn.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_fifo.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_crc.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_registers.v /home/lic9/prj/HWIL/ref/ip-cores/bench/verilog/can_testbench.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_btl.v /home/lic9/prj/HWIL/ref/ip-cores/bench/verilog/can_testbench_defines.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_register_syn.v}
+update_compile_order -fileset sources_1
+open_bd_design {/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/riscv.bd}
+create_bd_cell -type module -reference can_top can_top_0
+delete_bd_objs [get_bd_cells can_top_0]
+set_property top can_testbench [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lic9/prj/HWIL/ref/ip-cores/bench/verilog/can_testbench.v:]
+save_bd_design
+Wrote  : </home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/riscv.bd> 
+Wrote  : </home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/ui/bd_32edb0cf.ui> 
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'can_testbench'
+INFO: [Vivado 12-12490] The selected simulation model for 'riscv_can_top_0_0' IP changed to 'rtl' from '', the simulation run directory will be deleted.
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/tools/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'can_testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim/sc_xtlm_riscv_axi_smc_1_0.mem'
+INFO: [SIM-utils-43] Exported '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim/sc_xtlm_riscv_io_axi_m_0.mem'
+INFO: [SIM-utils-43] Exported '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim/sc_xtlm_riscv_io_axi_s_0.mem'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_can_0_0/riscv_can_0_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_can_top_0_0/riscv_can_top_0_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/riscv_v_proc_ss_0_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_15/bd_87b4_axi_vdma_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_5/bd_87b4_csc_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_21/bd_87b4_deint_cc_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_20/bd_87b4_deint_concat_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_23/bd_87b4_deint_fid_tap_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_19/bd_87b4_deint_ss_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_22/bd_87b4_deint_tuser_tap_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_18/bd_87b4_dint_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_26/bd_87b4_hcr_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_2/bd_87b4_hsc_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_3/bd_87b4_input_size_set_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_4/bd_87b4_ltr_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_27/bd_87b4_m00_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_28/bd_87b4_m01_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_29/bd_87b4_m02_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_30/bd_87b4_m04_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_31/bd_87b4_m05_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_32/bd_87b4_m06_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_33/bd_87b4_m07_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_34/bd_87b4_m08_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_6/bd_87b4_proc_ss_ip_aresetn_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_16/bd_87b4_reset_sel_axi_mm_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_10/bd_87b4_reset_sel_axis_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_17/bd_87b4_rst_axi_mm_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_11/bd_87b4_rst_axis_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_0/bd_87b4_smartconnect_0_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_12/bd_87b4_smartconnect_1_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_24/bd_87b4_vcr_i_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_25/bd_87b4_vcr_o_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_13/bd_87b4_vdma_pad_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_14/bd_87b4_vdma_trunc_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_7/bd_87b4_vid_in_aresetn_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_8/bd_87b4_video_router_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_1/bd_87b4_vsc_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_9/bd_87b4_xbar_0.xml'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj can_testbench_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_acf.v" into library xil_defaultlib
+ERROR: [VRFC 10-3195] cannot open include file 'timescale.v' [/home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_acf.v:88]
+INFO: [VRFC 10-311] analyzing module can_acf
+ERROR: [VRFC 10-8530] module 'can_acf' is ignored due to previous errors [/home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_acf.v:92]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'can_testbench'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/tools/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'can_testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim/sc_xtlm_riscv_axi_smc_1_0.mem'
+INFO: [SIM-utils-43] Exported '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim/sc_xtlm_riscv_io_axi_m_0.mem'
+INFO: [SIM-utils-43] Exported '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim/sc_xtlm_riscv_io_axi_s_0.mem'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_can_0_0/riscv_can_0_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_can_top_0_0/riscv_can_top_0_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/riscv_v_proc_ss_0_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_15/bd_87b4_axi_vdma_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_5/bd_87b4_csc_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_21/bd_87b4_deint_cc_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_20/bd_87b4_deint_concat_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_23/bd_87b4_deint_fid_tap_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_19/bd_87b4_deint_ss_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_22/bd_87b4_deint_tuser_tap_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_18/bd_87b4_dint_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_26/bd_87b4_hcr_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_2/bd_87b4_hsc_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_3/bd_87b4_input_size_set_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_4/bd_87b4_ltr_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_27/bd_87b4_m00_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_28/bd_87b4_m01_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_29/bd_87b4_m02_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_30/bd_87b4_m04_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_31/bd_87b4_m05_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_32/bd_87b4_m06_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_33/bd_87b4_m07_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_34/bd_87b4_m08_regslice_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_6/bd_87b4_proc_ss_ip_aresetn_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_16/bd_87b4_reset_sel_axi_mm_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_10/bd_87b4_reset_sel_axis_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_17/bd_87b4_rst_axi_mm_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_11/bd_87b4_rst_axis_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_0/bd_87b4_smartconnect_0_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_12/bd_87b4_smartconnect_1_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_24/bd_87b4_vcr_i_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_25/bd_87b4_vcr_o_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_13/bd_87b4_vdma_pad_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_14/bd_87b4_vdma_trunc_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_7/bd_87b4_vid_in_aresetn_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_8/bd_87b4_video_router_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_1/bd_87b4_vsc_0.xml'
+WARNING: [SIM-utils-52] IP component XML file does not exist: '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.gen/sources_1/bd/riscv/ip/riscv_v_proc_ss_0_0/bd_0/ip/ip_9/bd_87b4_xbar_0.xml'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj can_testbench_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_acf.v" into library xil_defaultlib
+ERROR: [VRFC 10-3195] cannot open include file 'timescale.v' [/home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_acf.v:88]
+INFO: [VRFC 10-311] analyzing module can_acf
+ERROR: [VRFC 10-8530] module 'can_acf' is ignored due to previous errors [/home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_acf.v:92]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 27 17:29:21 2023...

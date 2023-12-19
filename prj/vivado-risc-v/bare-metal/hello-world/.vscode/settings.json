@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stdarg.h": "c",
+        "stdlib.h": "c",
+        "common.h": "c",
+        "kprintf.h": "c"
+    }
+}

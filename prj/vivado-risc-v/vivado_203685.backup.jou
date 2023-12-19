@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Nov 27 16:56:00 2023
+# Process ID: 203685
+# Current directory: /home/lic9/prj/HWIL/ref/vivado-risc-v
+# Command line: vivado workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.xpr
+# Log file: /home/lic9/prj/HWIL/ref/vivado-risc-v/vivado.log
+# Journal file: /home/lic9/prj/HWIL/ref/vivado-risc-v/vivado.jou
+# Running On: administrator-Precision-3660, OS: Linux, CPU Frequency: 2093.798 MHz, CPU Physical cores: 12, Host memory: 33319 MB
+#-----------------------------------------------------------
+start_gui
+open_project workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.xpr
+update_compile_order -fileset sources_1
+open_bd_design {/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/riscv.bd}
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:can:5.1 can_0
+endgroup
+set_property location {4 1218 764} [get_bd_cells can_0]
+save_bd_design
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:v_proc_ss:2.3 v_proc_ss_0
+endgroup
+delete_bd_objs [get_bd_cells v_proc_ss_0]
+save_bd_design
+delete_bd_objs [get_bd_cells can_0]
+save_bd_design
+open_bd_design {/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/riscv.bd}
+launch_simulation
+source sdc_controller.tcl
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run all
+run all
+run all
+open_bd_design {/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/riscv.bd}
+open_bd_design {/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/riscv.bd}
+set_property location {1 156 761} [get_bd_cells clk_wiz_0]
+add_files {/home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_defines.v /home/lic9/prj/HWIL/ref/ip-cores/bench/verilog/timescale.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_register_asyn.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_acf.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_ibo.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_top.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_bsp.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_register.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_register_asyn_syn.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_fifo.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_crc.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_registers.v /home/lic9/prj/HWIL/ref/ip-cores/bench/verilog/can_testbench.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_btl.v /home/lic9/prj/HWIL/ref/ip-cores/bench/verilog/can_testbench_defines.v /home/lic9/prj/HWIL/ref/ip-cores/rtl/verilog/can_register_syn.v}
+update_compile_order -fileset sources_1
+open_bd_design {/home/lic9/prj/HWIL/ref/vivado-risc-v/workspace/rocket32s2/vivado-nexys-video-riscv/nexys-video-riscv.srcs/sources_1/bd/riscv/riscv.bd}
+create_bd_cell -type module -reference can_top can_top_0
+delete_bd_objs [get_bd_cells can_top_0]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top can_testbench [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+save_bd_design
+launch_simulation
+launch_simulation
+close_sim
