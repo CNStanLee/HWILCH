@@ -22,5 +22,3 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lic9/prj/HWILCH/HWILCH/ref/ip
 INFO: [VRFC 10-311] analyzing module can_top
 INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lic9/prj/HWILCH/HWILCH/ref/ip-cores/bench/verilog/can_testbench.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module can_testbench
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lic9/prj/HWILCH/HWILCH/prj/HWIL/HWIL.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl

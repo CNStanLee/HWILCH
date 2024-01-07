@@ -1,5 +1,17 @@
 {
     "files.associations": {
-        "cled.h": "c"
+        "cled.h": "c",
+        "riscv_io.h": "c",
+        "sja1000.h": "c",
+        "stdint.h": "c",
+        "io.h": "c",
+        "compiler.h": "c",
+        "seq_exec.h": "c",
+        "string": "c",
+        "ccan.h": "c",
+        "stdbool.h": "c",
+        "cgpio.h": "c",
+        "cgpio_def.h": "c",
+        "ccan_drv.h": "c"
     }
 }

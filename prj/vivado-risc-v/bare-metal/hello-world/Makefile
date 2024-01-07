@@ -14,9 +14,9 @@ LFLAGS = -static -nostartfiles -T main.lds
 
 all: boot.elf
 
-boot.elf: head.S kprintf.c main.c cled.c
+boot.elf: head.S kprintf.c main.c cled.c csw.c ccan_drv.c cdelay.c cgpio.c
 	make -C ../.. workspace/gcc/riscv
-	$(CC) $(CCFLAGS) $(LFLAGS) -o $@ head.S kprintf.c cled.c main.c
+	$(CC) $(CCFLAGS) $(LFLAGS) -o $@ head.S kprintf.c main.c cled.c csw.c ccan_drv.c cgpio.c cdelay.c 
 	$(OBJDUMP) -h -p $@
 
 clean:
